@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* =====================================FIRST==================================================================== */
+#first {
+  margin: 1.5rem 1.5rem 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 12%;
+}
+#bar .open-menu {
+  display: none;
+}
+#bar .close-menu {
+  display: none;
+  color: #005e06;
+}
+.headlist {
+  display: none;
+}
+.nav {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav ul {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+}
+/* ============================================================SECTION 2================================================================================================= */
+#second {
+  font-weight: 900;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+  align-items: center;
+  background-color: rgb(240, 239, 239);
+}
+.img1 img {
+  width: 100%;
+}
+
+.note {
+  padding: 0 6rem;
+  line-height: 3rem;
+}
+.note h2 {
+  background-color: white;
+  font-size: 2rem;
+  width: 8rem;
+}
+.note h1 {
+  font-size: 2rem;
+}
+.note h3 {
+  font-size: 2rem;
+  /* font-size: small; */
+  width: 10rem;
+  background-color: rgb(243, 215, 89);
+}
+.note p {
+  font-size: 1.3rem;
+}
+.note .colo {
+  background-color: rgb(243, 215, 89);
+}
+button {
+  width: 7.5rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.4rem;
+}
+.logos {
+  height: 5rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 215, 89);
+}
+.logos img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+/* ============================================================THIRD====================================================== */
+.new {
+  padding: 1.5rem;
+}
+.arrivals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.arrivals img {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+}
+.arrivals h3 {
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+.arrivals h6 {
+  padding-left: 1.5rem;
+}
+/* =============================================FOURTH=============================================================================== */
+#fourth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(243, 215, 89);
+}
+#fourth img {
+  width: 100%;
+}
+.write-up {
+  width: 40%;
+  /* padding: 0 6rem; */
+  /* line-height: 2rem; */
+  margin-right: 4rem;
+}
+.write-up h1 {
+  background-color: white;
+  width: 50%;
+  font-size: 3rem;
+}
+.write-up h2 {
+  font-size: 3rem;
+  padding-top: 0.6rem;
+}
+.write-up p {
+  padding: 0.6rem 0;
+}
+.write-up h5 {
+  padding-bottom: 1rem;
+}
+/* ===========================================================FIFTH===================================================================== */
+.fav-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fav-images img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+}
+#fifth h1 {
+  padding: 4rem 1rem;
+}
+#fifth span {
+  border-bottom: 4px solid rgb(243, 215, 89);
+}
+#fifth h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+#fifth h6 {
+  padding-left: 1rem;
+  margin-bottom: 6rem;
+}
+/* ======================================================SIXTH====================================================================== */
+#sixth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  width: 30%;
+  margin: 0 auto;
+  line-height: 2rem;
+  /* background-color: aqua; */
+  padding-bottom: 4rem;
+}
+.info h1 {
+  padding-bottom: 1rem;
+}
+.info p {
+  padding-bottom: 1rem;
+}
+.google {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.google img {
+  width: 48%;
+}
+.app-image img {
+  width: 80%;
+}
+/* -------------------------------------------SEVENTH----------------------------------------------------- */
+#seventh {
+  background-color: rgb(243, 215, 89);
+  text-align: center;
+  color: white;
+  padding: 8rem;
+  line-height: 3rem;
+}
+#seventh .butt {
+  background-color: white;
+  color: black;
+  margin: 0 25.4rem;
+  border-radius: 0.5rem;
+  /* padding:0 2rem; */
+}
+/* ===========================================================FOOTER================================================================== */
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  line-height: 2rem;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+footer .list {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+
+footer .list a {
+  color: rgb(243, 215, 89);
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    justify-content: space-between;
+  }
+  .header h1 {
+    margin-left: 0.6rem;
+  }
+  #bar .fa {
+    display: block;
+  }
+  #bar .open-menu {
+    display: block;
+  }
+  #bar .close-menu {
+    display: block;
+  }
+  .headlist {
+    /* display: block; */
+  }
+  .nav {
+    display: none;
+  }
+  #second {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .img1 img {
+    width: 100%;
+  }
+
+  .note {
+    text-align: center;
+    padding: 2rem;
+    line-height: 2.6rem;
+  }
+  .note h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .note h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .note h3 {
+    font-size: 1.5rem;
+    width: 10rem;
+  }
+  .note p {
+    font-size: 1rem;
+  }
+  .logos {
+    height: 4rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 215, 89);
+  }
+  .logos img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: 1.5rem;
+  }
+  .arrivals {
+    flex-direction: column;
+  }
+  .arrivals img {
+    flex-direction: column;
+    width: 80%;
+  }
+  .arrivals h3 {
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+  }
+  .arrivals h6 {
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+  }
+  .new {
+    padding: 2.5rem;
+  }
+  #fourth {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #fourth img {
+    width: 100%;
+  }
+  .write-up {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.7rem;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .write-up h1 {
+    background-color: white;
+    width: 100%;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 0.3rem;
+  }
+  .write-up h2 {
+    font-size: 2.5rem;
+    padding-top: 0.6rem;
+    /* margin-bottom: 0.7rem; */
+    line-height: 2.5rem;
+  }
+  .write-up p {
+    padding: 0.6rem 0;
+  }
+  .write-up h5 {
+    padding-bottom: 1rem;
+  }
+  .fav-images {
+    flex-direction: column;
+  }
+  .fav-images img {
+    flex-direction: column;
+    width: 90%;
+  }
+  #fifth {
+    margin-bottom: 4rem;
+  }
+  #fifth h1 {
+    text-align: center;
+  }
+  #fifth h3 {
+    padding-left: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+  }
+  #fifth h6 {
+    padding-left: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+  #sixth {
+    flex-direction: column;
+  }
+  .info {
+    width: 80%;
+    text-align: center;
+  }
+  .google {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .google img {
+    width: 70%;
+    padding: 0.3rem;
+  }
+
+  .app-image img {
+    width: 100%;
+  }
+
+  .shop h1 {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: aqua; */
+  }
+  .shop {
+    background-color: rgb(243, 215, 89);
+    color: white;
+    /* padding: 7.6rem; */
+    line-height: 2rem;
+    margin: -6rem;
+    /* width: 80%; */
+  }
+  #seventh .butt {
+    background-color: white;
+    color: black;
+    margin: 2rem 2.8rem;
+    border-radius: 0.5rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  footer {
+    flex-direction: column;
+    line-height: 2rem;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-left: 1.5rem;
+  }
+  footer .list {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+  }
+  footer ul {
+    padding-bottom: 2rem;
+  }
+
+  footer .list a {
+    color: rgb(243, 215, 89);
+    font-size: 1.6rem;
+  }
+}
