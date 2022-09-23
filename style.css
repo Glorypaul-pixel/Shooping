@@ -6,39 +6,47 @@
   font-family: "Poppins", sans-serif;
 }
 /* =====================================FIRST==================================================================== */
-#first {
+/* #first {
   margin: 1.5rem 1.5rem 0 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 12%;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: relative;
 }
-#bar .open-menu {
+.fashion {
+  display: flex;
+  align-items: center;
+}
+.fashion h1 {
+  margin-left: 0.5rem;
+}
+.hamburger {
   display: none;
 }
-#bar .close-menu {
-  display: none;
-  color: #005e06;
+.logo-image img {
+  max-width: 100%;
 }
 .headlist {
   display: none;
 }
 .nav {
-  width: 60%;
+  /* width: 60%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 .nav ul {
-  width: 80%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+.nav ul li {
+  padding-right: 0.7rem;
 }
 ul li {
   list-style: none;
@@ -82,11 +90,10 @@ ul li {
   background-color: rgb(243, 215, 89);
 }
 button {
-  width: 7.5rem;
-  height: 3rem;
   background-color: black;
   color: white;
   border-radius: 0.4rem;
+  padding: 0.5rem 2.5rem;
 }
 .logos {
   height: 5rem;
@@ -255,9 +262,11 @@ footer .list a {
 @media screen and (max-width: 420px) {
   .header {
     justify-content: space-between;
+    gap: 3rem;
   }
   .header h1 {
     margin-left: 0.6rem;
+    flex: 1;
   }
   #bar .fa {
     display: block;
@@ -269,9 +278,34 @@ footer .list a {
     display: block;
   }
   .headlist {
-    /* display: block; */
+    display: block;
   }
   .nav {
+    display: flex;
+  }
+  .nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    /* transform: translate(-50%, -50%); */
+    background-color: white;
+    width: 60%;
+    padding: 3rem 0;
+    text-align: left;
+    align-items: flex-start;
+    opacity: 0;
+  }
+  .nav ul li {
+    padding: 1rem;
+  }
+  .nav ul li + button {
+    margin: 1rem;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger .close-menu {
     display: none;
   }
   #second {
