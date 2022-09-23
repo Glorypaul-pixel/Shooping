@@ -95,6 +95,12 @@ button {
   border-radius: 0.4rem;
   padding: 0.5rem 2.5rem;
 }
+input {
+  border: 1px solid white;
+  width: 30%;
+  height: 3rem;
+  border-radius: 1rem;
+}
 .logos {
   height: 5rem;
   width: 100%;
@@ -380,6 +386,7 @@ footer .list a {
   #fourth img {
     width: 100%;
   }
+
   .write-up {
     width: 60%;
     margin: 0 auto;
