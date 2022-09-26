@@ -266,7 +266,7 @@ footer .list a {
   font-size: 1.6rem;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .header {
     justify-content: space-between;
     gap: 3rem;
@@ -299,8 +299,8 @@ footer .list a {
     background-color: white;
     width: 60%;
     padding: 3rem 0;
-    text-align: left;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     opacity: 0;
   }
   .nav ul li {
